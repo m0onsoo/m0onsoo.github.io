@@ -73,5 +73,12 @@ window.SITE_CONTENT = {
       paper: "https://ieeexplore.ieee.org/document/11415453",
       code: "",
     },
+    {
+      title: "ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation",
+      authors: ["M. Park", "S. Je", "D. Park"],
+      venue: "arXiv preprint, 2026",
+      paper: "https://arxiv.org/abs/2603.16236",
+      code: "https://github.com/m0onsoo/ReFORM",
+    },
   ],
 };
