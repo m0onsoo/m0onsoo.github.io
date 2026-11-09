@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Moonsoo Park — Computer Science master's student at USC. Research interests in recommender systems, Human-Centered AI, and Agentic AI.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Moonsoo Park</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&amp;family=Merriweather:wght@700&amp;display=swap">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./content.js" defer></script>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <main id="main">
+      <section id="about" class="about" aria-labelledby="name">
+        <h1 id="name">Moonsoo Park</h1>
+        <div class="intro-layout">
+        <div class="intro-copy">
+        <div id="bio" class="bio">
+          <p>I am a master's student in Computer Science at the University of Southern California (USC). I am interested in building personalized and efficient recommender systems that better understand users, including through agent-based simulation.</p>
+          <p>I earned my bachelor’s degree in Data Science at Sejong University in 2025, advised by <a href="https://sites.google.com/view/fnailab/our-team">Prof. Donghyeon Park</a>. In summer 2026, I interned at Sendbird as an AI Agent Engineer.</p>
+        </div>
+        <p class="interests"><span class="interests-label">Research interests:</span> <span id="interests">Personalized and Efficient Recommender Systems · Human-Centered AI · Agentic AI</span></p>
+        </div>
+        <div class="portrait">
+          <img id="profile-photo" alt="Moonsoo Park" width="180" height="210" hidden>
+          <div id="photo-placeholder" class="photo-placeholder" role="img" aria-label="Profile photo placeholder">
+            <svg viewBox="0 0 64 64" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="32" cy="23" r="10"/><path d="M13 55c0-12 8-19 19-19s19 7 19 19"/></svg>
+            <span>Profile photo</span>
+          </div>
+        </div>
+        </div>
+        <ul id="contact-links" class="contact-links" aria-label="Contact and profiles"></ul>
+      </section>
+      <section id="news" class="content-section" aria-labelledby="news-heading">
+        <div class="section-heading"><h2 id="news-heading">News</h2></div>
+        <ul id="news-list" class="news-list"></ul>
+        <p id="news-empty" class="empty-state">Updates will be posted here.</p>
+        <button id="news-toggle" class="text-button" type="button" aria-expanded="false" aria-controls="news-list" hidden>Show more <span aria-hidden="true">↓</span></button>
+      </section>
+      <section id="publications" class="content-section" aria-labelledby="publications-heading">
+        <div class="section-heading"><h2 id="publications-heading">Publications</h2></div>
+        <ol id="publication-list" class="publication-list"></ol>
+        <p id="publications-empty" class="empty-state">Publication details will be added soon.</p>
+      </section>
+    </main>
+  </div>
+  <noscript><p class="noscript-note">Enable JavaScript to see news, publications, and contact links.</p></noscript>
+</body>
+</html>
